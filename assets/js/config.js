@@ -7,14 +7,9 @@ const talk_speaker_details = {
   'yna': ['Yashraj Narang', './assets/images/talks/yash.jpeg', 'Sr. Research Scientist', 'NVIDIA', 'https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en', '', ''],
   'mba': ['Maria Bauza', './assets/images/talks/maria.jpeg', 'Sr. Research Scientist', 'Google DeepMind', 'https://web.mit.edu/bauza/www/', '', ''],
   'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', '', ''],
-  'ddc': ['Dotan Di Castro', './assets/images/talks/dotan.jpeg', 'Research Manager', 'Bosch', 'https://scholar.google.co.il/citations?user=zhQaFaMAAAAJ&hl=en', '', ''],
   'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
   'jpe': ['Jan Peters', './assets/images/talks/jan.jpeg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters', '', ''],
-  'wma': ['Wojciech Matusik', './assets/images/talks/wojciech.jpeg', 'Professor', 'MIT', 'https://cdfg.mit.edu/wojciech', '', ''],
   'kdo': ['Kathrin Dörfler', './assets/images/talks/kathrin.jpeg', 'Assistant Professor', 'TU Munich', 'https://www.arc.ed.tum.de/df/team/kathrin-doerfler/', '', ''],
-  'dro': ['Diego Romeres', './assets/images/talks/diego.jpeg', 'Sr. Principal Research Scientist', 'MERL', 'https://www.merl.com/people/romeres', '', ''],
-  'cli': ['Changliu Liu', './assets/images/talks/changliu.jpeg', 'Assistant Professor', 'CMU', 'https://www.ri.cmu.edu/ri-faculty/changliu-liu/', '', ''],
-  'jlu': ['Jianlan Luo', './assets/images/talks/jianlan.jpeg', 'Postdoc Scholar', 'UC Berkeley', 'https://people.eecs.berkeley.edu/~jianlanluo/', '', ''],
 }
 
 const organizers_details = [
@@ -35,21 +30,14 @@ const org_affiliation_logos = [
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
 // last two are for inv-talk event-alias entries
 const schedule = [
-  ['intro', '09:00 - 09:10', 'Introduction'],
-  ['inv-talk', '09:10 - 09:35', 'Invited Talk', 'yna', 'in-person'],
-  ['inv-talk', '09:35 - 10:00', 'Invited Talk', 'mba', 'in-person'],
-  ['inv-talk', '10:00 - 10:25', 'Invited Talk', 'hli', 'in-person'],
-  ['coffee-break', '10:25 - 10:50', 'Poster Session & Coffee Break'],
-  ['inv-talk', '10:50 - 11:15', 'Invited Talk', 'ddc', 'in-person'],
-  ['inv-talk', '11:15 - 11:40', 'Invited Talk', 'jli', 'in-person'],
-  ['lunch-break', '11:40 - 13:30', 'Lunch Break'],
-  ['inv-talk', '13:30 - 13:55', 'Invited Talk', 'jpe', 'in-person'],
-  ['inv-talk', '13:55 - 14:20', 'Invited Talk', 'wma', 'in-person'],
-  ['inv-talk', '14:20 - 14:45', 'Invited Talk', 'kdo', 'in-person'],
-  ['spot-ppt', '14:45 - 15:15', 'Lightning & Spotlight Presentations'],
-  ['coffee-break', '15:15 - 15:45', 'Poster Session & Coffee Break'],
-  ['inv-talk', '15:45 - 16:10', 'Invited Talk', 'dro', 'in-person'],
-  ['inv-talk', '16:10 - 16:35', 'Invited Talk', 'cli', 'in-person'],
-  ['inv-talk', '16:35 - 17:00', 'Invited Talk', 'jlu', 'in-person'],
-  ['award', '17:00 - 17:15', 'Award & Closing Remarks'],
+  ['intro', '08:30 - 08:40', 'Introduction'],
+  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'yna', 'in-person'],
+  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'mba', 'in-person'],
+  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'hli', 'in-person'],
+  ['coffee-break', '09:40 - 10:20', 'Poster Session'],
+  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'jli', 'in-person'],
+  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'jpe', 'in-person'],
+  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'kdo', 'in-person'],
+  ['disc', '11:20 - 11:50', 'Panel Discussion'],
+  ['award', '11:50 - 12:00', 'Award & Closing Remarks'],
 ]
