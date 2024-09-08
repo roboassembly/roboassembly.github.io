@@ -10,6 +10,7 @@ const talk_speaker_details = {
   'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
   'kdo': ['Kathrin Dörfler', './assets/images/talks/kathrin.jpeg', 'Assistant Professor', 'TU Munich', 'https://www.arc.ed.tum.de/df/team/kathrin-doerfler/', '', ''],
   'jpe': ['Jan Peters', './assets/images/talks/jan.jpeg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters', '', ''],
+  'tbd': ['TBD', '', '', '', '', '', ''],
 }
 
 const organizers_details = [
@@ -31,13 +32,13 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '08:30 - 08:40', 'Introduction'],
-  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'xxx', 'in-person'],
-  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'xxx', 'in-person'],
-  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'xxx', 'in-person'],
-  ['coffee-break', '09:40 - 10:20', 'Poster Session'],
-  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'xxx', 'in-person'],
-  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'xxx', 'in-person'],
-  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'xxx', 'in-person'],
+  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'tbd', 'in-person'],
+  ['poster', '09:40 - 10:20', 'Poster Session'],
+  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'tbd', 'in-person'],
   ['disc', '11:20 - 11:50', 'Panel Discussion'],
   ['award', '11:50 - 12:00', 'Award & Closing Remarks'],
 ]
