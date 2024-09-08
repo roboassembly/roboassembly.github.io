@@ -4,12 +4,12 @@ const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Munich, Germa
 const workshop_date = `November 9, 2024`
 
 const talk_speaker_details = {
-  'yna': ['Yashraj Narang', './assets/images/talks/yash.jpeg', 'Sr. Research Scientist', 'NVIDIA', 'https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en', '', ''],
   'mba': ['Maria Bauza', './assets/images/talks/maria.jpeg', 'Sr. Research Scientist', 'Google DeepMind', 'https://web.mit.edu/bauza/www/', '', ''],
+  'yna': ['Yashraj Narang', './assets/images/talks/yash.jpeg', 'Sr. Research Scientist', 'NVIDIA', 'https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en', '', ''],
   'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', '', ''],
   'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
-  'jpe': ['Jan Peters', './assets/images/talks/jan.jpeg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters', '', ''],
   'kdo': ['Kathrin Dörfler', './assets/images/talks/kathrin.jpeg', 'Assistant Professor', 'TU Munich', 'https://www.arc.ed.tum.de/df/team/kathrin-doerfler/', '', ''],
+  'jpe': ['Jan Peters', './assets/images/talks/jan.jpeg', 'Professor', 'TU Darmstadt', 'https://www.ias.informatik.tu-darmstadt.de/Member/JanPeters', '', ''],
 }
 
 const organizers_details = [
@@ -31,13 +31,13 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '08:30 - 08:40', 'Introduction'],
-  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'yna', 'in-person'],
-  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'mba', 'in-person'],
-  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'hli', 'in-person'],
+  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'xxx', 'in-person'],
+  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'xxx', 'in-person'],
+  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'xxx', 'in-person'],
   ['coffee-break', '09:40 - 10:20', 'Poster Session'],
-  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'jli', 'in-person'],
-  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'jpe', 'in-person'],
-  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'kdo', 'in-person'],
+  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'xxx', 'in-person'],
+  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'xxx', 'in-person'],
+  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'xxx', 'in-person'],
   ['disc', '11:20 - 11:50', 'Panel Discussion'],
   ['award', '11:50 - 12:00', 'Award & Closing Remarks'],
 ]
