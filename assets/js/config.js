@@ -31,14 +31,14 @@ const org_affiliation_logos = [
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
 // last two are for inv-talk event-alias entries
 const schedule = [
-  ['intro', '08:30 - 08:40', 'Introduction'],
-  ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'tbd', 'in-person'],
-  ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'tbd', 'in-person'],
-  ['inv-talk', '09:20 - 09:40', 'Invited Talk', 'tbd', 'in-person'],
-  ['poster', '09:40 - 10:20', 'Poster Session'],
-  ['inv-talk', '10:20 - 10:40', 'Invited Talk', 'tbd', 'in-person'],
-  ['inv-talk', '10:40 - 11:00', 'Invited Talk', 'tbd', 'in-person'],
-  ['inv-talk', '11:00 - 11:20', 'Invited Talk', 'tbd', 'in-person'],
-  ['disc', '11:20 - 11:50', 'Panel Discussion'],
-  ['award', '11:50 - 12:00', 'Award & Closing Remarks'],
+  ['intro', '13:45 - 14:00', 'Introduction'],
+  ['inv-talk', '14:00 - 14:25', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '14:25 - 14:50', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '14:50 - 15:15', 'Invited Talk', 'tbd', 'in-person'],
+  ['poster & coffee break', '15:15 - 16:00', 'Poster Session and Coffee Break'],
+  ['inv-talk', '16:00 - 16:25', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '16:25 - 16:50', 'Invited Talk', 'tbd', 'in-person'],
+  ['inv-talk', '16:50 - 17:15', 'Invited Talk', 'tbd', 'in-person'],
+  ['disc', '17:15 - 17:45', 'Panel Discussion'],
+  ['award', '17:45 - 18:00', 'Award & Closing Remarks'],
 ]
