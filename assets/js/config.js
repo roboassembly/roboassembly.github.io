@@ -4,7 +4,9 @@ const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Munich, Germa
 const workshop_date = `November 9, 2024`
 
 const talk_speaker_details = {
-  'mba': ['Maria Bauza', './assets/images/talks/maria.jpeg', 'Sr. Research Scientist', 'Google DeepMind', 'https://web.mit.edu/bauza/www/', '', ''],
+  'mba': ['Maria Bauza', './assets/images/talks/maria.jpeg', 'Sr. Research Scientist', 'Google DeepMind', 'https://web.mit.edu/bauza/www/', 
+    'Sim-to-Real: A Path Towards General and Precise Robotic Manipulation', 
+    'Robotics stands as one of the most impactful and promising endeavors of our times. In this talk, I will argue that sim-to-real can bring us closer to the levels of autonomy and performance that we expect on our robots. First, I will present a sim-to-real approach that enables precise robotic pick-and-place using task-aware grasping. In real experiments, we show that our approach learned purely in simulation, allows robots to successfully manipulate new objects and perform highly accurate placements. Next, I will present DemoStart, a novel auto-curriculum RL method capable of learning and transferring complex manipulation behaviors on an arm equipped with a three-fingered robotic hand, from only a sparse reward and a handful of demonstrations in simulation.  DemoStart outperforms policies learned from demonstrations on the real robot, requiring 100 times fewer demonstrations. In summary, in this talk I will discuss a path for using simulation to both generate reliable and precise behaviors that adapt and transfer to real systems including those required for industrial assembly.'],
   'yna': ['Yashraj Narang', './assets/images/talks/yash.jpeg', 'Sr. Research Scientist', 'NVIDIA', 'https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en', '', ''],
   'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', '', ''],
   'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
