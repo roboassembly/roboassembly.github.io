@@ -1,14 +1,17 @@
 const project_name = `Workshop on Learning Robotic Assembly of Industrial and Everyday Objects`
 const proj_small_caps = `<span class="small-caps">A World Built by Robots</span>: `
-const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Munich, Germany', 'assets/images/corl_logo.png']
-const workshop_date = `November 9, 2024`
+const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Orion (Floor 2) @ Science Congress Center Munich', 'assets/images/corl_logo.png', 'https://www.beta-cae.com/events/c9pdf/science%20congress%20center-floor-plans.pdf']
+const zoom_details = ['https://mit.zoom.us/j/93466127076', 'https://mit.zoom.us/meeting/tJcpce-prDwqHdLCTgOUxr-z7i12fAAVyrzS/calendar/google/add', 'https://mit.zoom.us/meeting/tJcpce-prDwqHdLCTgOUxr-z7i12fAAVyrzS/ics']
+const workshop_date = `13:40 - 18:00 CEST, November 9, 2024`
 
 const talk_speaker_details = {
   'mba': ['Maria Bauza', './assets/images/talks/maria.jpeg', 'Sr. Research Scientist', 'Google DeepMind', 'https://web.mit.edu/bauza/www/', 
     'Sim-to-Real: A Path Towards General and Precise Robotic Manipulation', 
     'Robotics stands as one of the most impactful and promising endeavors of our times. In this talk, I will argue that sim-to-real can bring us closer to the levels of autonomy and performance that we expect on our robots. First, I will present a sim-to-real approach that enables precise robotic pick-and-place using task-aware grasping. In real experiments, we show that our approach learned purely in simulation, allows robots to successfully manipulate new objects and perform highly accurate placements. Next, I will present DemoStart, a novel auto-curriculum RL method capable of learning and transferring complex manipulation behaviors on an arm equipped with a three-fingered robotic hand, from only a sparse reward and a handful of demonstrations in simulation.  DemoStart outperforms policies learned from demonstrations on the real robot, requiring 100 times fewer demonstrations. In summary, in this talk I will discuss a path for using simulation to both generate reliable and precise behaviors that adapt and transfer to real systems including those required for industrial assembly.'],
   'yna': ['Yashraj Narang', './assets/images/talks/yash.jpeg', 'Sr. Research Scientist', 'NVIDIA', 'https://scholar.google.com/citations?user=M3NuG7AAAAAJ&hl=en', '', ''],
-  'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', '', ''],
+  'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', 
+    'Zooming in and out on learning for robotic assembly',
+    'Robotic assembly is challenging on different levels. When zoomed in, part insertion is contact-rich and requires high precision. When zoomed out, an assembly involves multiple parts and multiple skills, and hence requires sequence planning of the parts and skills. In this talk, I will present our past and ongoing work tackling the multi-level challenges and show a hierarchical framework that attempts to bring them together.'],
   'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
   'kdo': ['Kathrin Dörfler', './assets/images/talks/kathrin.jpeg', 'Assistant Professor', 'TU Munich', 'https://www.arc.ed.tum.de/df/team/kathrin-doerfler/', 
     'Unbuilding ─ Material Reclamation Enabled by Spatial AI for Mobile Robots', 
