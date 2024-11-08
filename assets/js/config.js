@@ -12,7 +12,8 @@ const talk_speaker_details = {
   'hli': ['Hui Li', './assets/images/talks/hui.jpeg', 'Sr. Principal Research Scientist', 'Autodesk', 'https://www.research.autodesk.com/people/hui-li/', 
     'Zooming in and out on learning for robotic assembly',
     'Robotic assembly is challenging on different levels. When zoomed in, part insertion is contact-rich and requires high precision. When zoomed out, an assembly involves multiple parts and multiple skills, and hence requires sequence planning of the parts and skills. In this talk, I will present our past and ongoing work tackling the multi-level challenges and show a hierarchical framework that attempts to bring them together.'],
-  'jli': ['Joseph J. Lim', './assets/images/talks/joseph.png', 'Associate Professor', 'KAIST', 'https://clvrai.com/web_lim/', '', ''],
+  'yle': ['Youngwoon Lee', './assets/images/talks/youngwoon.jpg', 'Assistant Professor', 'Yonsei University', 'https://youngwoon.github.io/youngwoon', 
+    'FurnitureBench: Reproducible Real-World Benchmark for Long-Horizon Complex Manipulation', ''],
   'kdo': ['Kathrin Dörfler', './assets/images/talks/kathrin.jpeg', 'Assistant Professor', 'TU Munich', 'https://www.arc.ed.tum.de/df/team/kathrin-doerfler/', 
     'Unbuilding ─ Material Reclamation Enabled by Spatial AI for Mobile Robots', 
     '"Unbuilding" explores the potential of material reclamation using Spatial AI for mobile robots in construction deconstruction processes. By leveraging advanced sensing and localisation technologies, mobile robots can autonomously identify, retrieve, and catalogue reusable materials from existing structures. This approach aims to bring forward sustainable construction practices by reducing waste and enabling circular material cycles.'],
@@ -41,9 +42,9 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '13:40 - 13:50', 'Introduction'],
-  ['inv-talk', '13:50 - 14:15', 'Invited Talk', 'jli', 'in-person'],
+  ['inv-talk', '13:50 - 14:15', 'Invited Talk', 'yna', 'in-person'],
   ['inv-talk', '14:15 - 14:40', 'Invited Talk', 'mba', 'in-person'],
-  ['inv-talk', '14:40 - 15:05', 'Invited Talk', 'yna', 'in-person'],
+  ['inv-talk', '14:40 - 15:05', 'Invited Talk', 'yle', 'in-person'],
   ['spot', '15:05 - 15:15', 'Spotlight Presentations'],
   ['poster & coffee break', '15:15 - 16:00', 'Poster Session and Coffee Break'],
   ['inv-talk', '16:00 - 16:25', 'Invited Talk', 'jpe', 'in-person'],
