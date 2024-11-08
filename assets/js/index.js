@@ -108,7 +108,7 @@ $(document).ready(function () {
   // talk content
   talk_content = Object.values(talk_speaker_details)
   populate_people_html('talk-content1', talk_content.slice(0, 3))
-  populate_people_html('talk-content2', talk_content.slice(3, 6))
+  populate_people_html('talk-content2', talk_content.slice(3, 7))
 
   // organizers content
   populate_people_html('organizer-content-1', organizers_details.slice(0, 3))
@@ -152,7 +152,11 @@ $(document).ready(function () {
       align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
       title = speaker_details[5] != `` ? `<h5 class="center has-text-success bold">${speaker_details[5]}</h5>` : ``
       abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
-      title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-success'>Details</span>)`
+      if (speaker_details[0] == 'Jan Peters') { // special case for Jan Peters
+        title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a> & <a href="${talk_speaker_details['nfu'][4]}" target="_blank">${talk_speaker_details['nfu'][0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-success'>Details</span>)`
+      } else {
+        title_abstract_html = ` ${talk_mode}: <a href="${speaker_details[4]}" target="_blank">${speaker_details[0]}</a>, ${speaker_details[3]} (<span class='toggle-btn has-text-success'>Details</span>)`
+      }
       hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}</td></tr>`
     }
     if(['lunch-break', 'coffee-break'].includes(schedule_entry[0])){
