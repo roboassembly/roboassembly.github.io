@@ -1,7 +1,6 @@
 const project_name = `Workshop on Learning Robotic Assembly of Industrial and Everyday Objects`
 const proj_small_caps = `<span class="small-caps">A World Built by Robots</span>: `
-const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Orion (Floor 2) @ Science Congress Center Munich', 'assets/images/corl_logo.png', 'https://www.beta-cae.com/events/c9pdf/science%20congress%20center-floor-plans.pdf']
-const zoom_details = ['https://mit.zoom.us/j/93466127076', 'https://mit.zoom.us/meeting/tJcpce-prDwqHdLCTgOUxr-z7i12fAAVyrzS/calendar/google/add', 'https://mit.zoom.us/meeting/tJcpce-prDwqHdLCTgOUxr-z7i12fAAVyrzS/ics']
+const conference_details = ['CoRL 2024', 'https://www.corl.org/', 'Munich, Germany', 'assets/images/corl_logo.png', 'https://www.beta-cae.com/events/c9pdf/science%20congress%20center-floor-plans.pdf']
 const workshop_date = `13:40 - 18:00 CEST, November 9, 2024`
 
 const talk_speaker_details = {
@@ -44,8 +43,8 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '13:40 - 13:50', 'Introduction'],
-  ['inv-talk', '13:50 - 14:15', 'Invited Talk', 'yna', 'in-person'],
-  ['inv-talk', '14:15 - 14:40', 'Invited Talk', 'mba', 'in-person'],
+  ['inv-talk', '13:50 - 14:15', 'Invited Talk', 'mba', 'in-person'],
+  ['inv-talk', '14:15 - 14:40', 'Invited Talk', 'yna', 'in-person'],
   ['inv-talk', '14:40 - 15:05', 'Invited Talk', 'yle', 'in-person'],
   ['spot', '15:05 - 15:15', 'Spotlight Presentations'],
   ['poster & coffee break', '15:15 - 16:00', 'Poster Session and Coffee Break'],

@@ -98,11 +98,8 @@ $(document).ready(function () {
   <p class="is-2"><i class="fas fa-clock" aria-hidden="true"></i>
   ${workshop_date}</a></p>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-  <a href="${conference_details[4]}" target="_blank">${conference_details[2]}</a></p>
-  <p class="is-2"><i class="fas fa-video" aria-hidden="true"></i>
-  Zoom link: <a href="${zoom_details[0]}" target="_blank">${zoom_details[0]}</a></p>
-  <p class="is-2"><i class="fas fa-calendar-alt" aria-hidden="true"></i>
-  Add to calendar: <a href="${zoom_details[1]}" target="_blank">Google</a>/<a href="${zoom_details[2]}" target="_blank">Outlook</a></p>
+  ${conference_details[2]}</p>
+  <b>Recordings will be released in a week! Thank you for your patience.</b>
   `)
 
   // talk content
