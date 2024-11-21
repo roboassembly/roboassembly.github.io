@@ -99,7 +99,6 @@ $(document).ready(function () {
   ${workshop_date}</a></p>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
   ${conference_details[2]}</p>
-  <b>Recordings will be released in a week! Thank you for your patience.</b>
   `)
 
   // talk content
